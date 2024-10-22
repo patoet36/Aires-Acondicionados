@@ -3,7 +3,10 @@
     margin: 0;
 }
 
+header{
+    background-color: #D8EDF2;
 
+}
 
 
 .imagenHeader img{
@@ -12,3 +15,16 @@
 }
 
 
+.grupoBotones button{
+    color: black;
+}
+
+.grupoBotones:hover{
+    color: gray;
+}
+
+#primeraParte{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
