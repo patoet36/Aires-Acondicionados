@@ -36,14 +36,20 @@
     background-color: #D8EDF2;
 }
 
+.grupoBotones a:hover{
+    color: #049DD9;
+}
 
+.grupoBotones a{
+    color: black;
+    text-decoration: none;
+}
 
 /*---------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
 
 .gradient{
     height: 100px;
     width: 100%;
-
     background-image: linear-gradient(to top,#D8EDF2, #ffff);
 }
 
@@ -51,6 +57,9 @@
     background-color: #D8EDF2;
     padding: 20px 0;
     text-align: center;
+}
+.footer a:hover{
+    color: #049DD9;
 }
 .footer a{
     color: #000;
