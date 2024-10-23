@@ -5,7 +5,7 @@
 
 /*----------------------------------------------------------------ENCABEZADO-----------------------------------------------------------------------------------*/
 
-#primeraParte{
+#encabezado{
     width: 100%;
     background-color: #D8EDF2;
 
@@ -14,22 +14,53 @@
     flex-wrap: wrap;
     align-items: center;
 
-    .tituloHeader{
-        display: flex;
-        flex-direction: row;
-        
-    }
-
-    .imagenHeader img{
+    .logoTitulo img{
     margin: 10px 15px 4px 30px;
     align-items: left;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
             
+    }
+    .titulo{
+        margin-left: 70px;
     }
 }
 
 /*-----------------------------------------MENU----------------------------------------------*/
 
+.grupoBotones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #D8EDF2;
+}
 
 
+
+/*---------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+
+.gradient{
+    height: 100px;
+    width: 100%;
+
+    background-image: linear-gradient(to top,#D8EDF2, #ffff);
+}
+
+.footer{
+    background-color: #D8EDF2;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a{
+    color: #000;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer hr{
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
