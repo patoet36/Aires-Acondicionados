@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-
+/*----------------------------------------------------------------ENCABEZADO-----------------------------------------------------------------------------------*/
 
 #primeraParte{
     width: 100%;
@@ -14,11 +14,22 @@
     flex-wrap: wrap;
     align-items: center;
 
+    .tituloHeader{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
     .imagenHeader img{
     margin: 10px 15px 4px 30px;
     align-items: left;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
             
     }
 }
+
+/*-----------------------------------------MENU----------------------------------------------*/
+
+
+
