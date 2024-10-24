@@ -75,14 +75,52 @@
 }
 
 #imgGrid2 img{
-    width: 600px;
-    height: 425px;
+    width: 500px;
+    height: 325px;
 }
 
-.parrafoGrid2{
-    
+#parrafoGrid2{
+    margin: 40px;
+    width: 400px;
+    text-align: center;
 }
 
+#row1{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#row2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#row3{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#img3grid2 img{
+    width: 500px;
+    height: 325px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
 
 
 /*---------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
